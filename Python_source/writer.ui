@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>618</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1000</width>
+    <height>618</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1000</width>
+    <height>618</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowOpacity">
+   <double>1.000000000000000</double>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow{
+	
+
+	
+}</string>
+  </property>
+  <property name="animated">
+   <bool>true</bool>
+  </property>
+  <property name="documentMode">
+   <bool>false</bool>
+  </property>
+  <property name="dockNestingEnabled">
+   <bool>false</bool>
+  </property>
+  <property name="unifiedTitleAndToolBarOnMac">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="Left_widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>129</width>
+      <height>595</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>1000</width>
+      <height>618</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget{
+        color:#232C51;
+        background:gray;
+        border-top:1px solid darkGray;
+        border-bottom:1px solid darkGray;
+       
+    }
+QWidget{
+    background:gray;
+    border-top:1px solid white;
+    border-bottom:1px solid white;
+    border-left:1px solid white;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+}</string>
+    </property>
+    <widget class="QPushButton" name="pushButton_ID">
+     <property name="geometry">
+      <rect>
+       <x>2</x>
+       <y>80</y>
+       <width>120</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+color:yellow;
+border:none
+
+</string>
+     </property>
+     <property name="text">
+      <string>003</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_WebLabel">
+     <property name="geometry">
+      <rect>
+       <x>2</x>
+       <y>370</y>
+       <width>126</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>-1</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+        border:none;
+        color:white;
+        font-size:12px;
+        height:40px;
+        padding-left:5px;
+        padding-right:10px;
+       
+    }
+    QPushButton:hover{
+        color:black;
+        border:1px solid #F3F3F5;
+        border-radius:10px;
+        background:LightGray;
+    }</string>
+     </property>
+     <property name="text">
+      <string>网站标签</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>标签.png</normaloff>标签.png</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_YunGongXiang">
+     <property name="geometry">
+      <rect>
+       <x>2</x>
+       <y>313</y>
+       <width>126</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>-1</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+        border:none;
+        color:white;
+        font-size:12px;
+        height:40px;
+        padding-left:5px;
+        padding-right:10px;
+       
+    }
+    QPushButton:hover{
+        color:black;
+        border:1px solid #F3F3F5;
+        border-radius:10px;
+        background:LightGray;
+    }</string>
+     </property>
+     <property name="text">
+      <string>云共享</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>共享_常规.png</normaloff>共享_常规.png</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Setting">
+     <property name="geometry">
+      <rect>
+       <x>2</x>
+       <y>427</y>
+       <width>126</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>-1</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+        border:none;
+        color:white;
+        font-size:12px;
+        height:40px;
+        padding-left:5px;
+        padding-right:10px;
+       
+    }
+    QPushButton:hover{
+        color:black;
+        border:1px solid #F3F3F5;
+        border-radius:10px;
+        background:LightGray;
+    }</string>
+     </property>
+     <property name="text">
+      <string>设置</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>设置.png</normaloff>设置.png</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_CallUs">
+     <property name="geometry">
+      <rect>
+       <x>2</x>
+       <y>484</y>
+       <width>126</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>-1</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+        border:none;
+        color:white;
+        font-size:12px;
+        height:40px;
+        padding-left:5px;
+        padding-right:10px;
+       
+    }
+    QPushButton:hover{
+        color:black;
+        border:1px solid #F3F3F5;
+        border-radius:10px;
+        background:LightGray;
+    }</string>
+     </property>
+     <property name="text">
+      <string>联系我们</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>客服.png</normaloff>客服.png</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_About">
+     <property name="geometry">
+      <rect>
+       <x>2</x>
+       <y>541</y>
+       <width>126</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>-1</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+QPushButton{
+        border:none;
+        color:white;
+        font-size:12px;
+        height:40px;
+        padding-left:5px;
+        padding-right:10px;
+       
+    }
+    QPushButton:hover{
+        color:black;
+        border:1px solid #F3F3F5;
+        border-radius:10px;
+        background:LightGray;
+    }</string>
+     </property>
+     <property name="text">
+      <string>关于</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>关于.png</normaloff>关于.png</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_KuoZhan">
+     <property name="geometry">
+      <rect>
+       <x>2</x>
+       <y>142</y>
+       <width>126</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>-1</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+        border:none;
+        color:white;
+        font-size:12px;
+        height:40px;
+        padding-left:5px;
+        padding-right:10px;
+       
+    }
+    QPushButton:hover{
+        color:black;
+        border:1px solid #F3F3F5;
+        border-radius:10px;
+        background:LightGray;
+    }</string>
+     </property>
+     <property name="text">
+      <string>扩展</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>添加.png</normaloff>添加.png</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_WoDeChuangZuo">
+     <property name="geometry">
+      <rect>
+       <x>2</x>
+       <y>199</y>
+       <width>126</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>-1</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+QPushButton{
+        border:none;
+        color:white;
+        font-size:12px;
+        height:40px;
+        padding-left:5px;
+        padding-right:10px;
+       
+    }
+    QPushButton:hover{
+        color:black;
+        border:1px solid #F3F3F5;
+        border-radius:10px;
+        background:LightGray;
+    }</string>
+     </property>
+     <property name="text">
+      <string>我的创作</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>我的 (1).png</normaloff>我的 (1).png</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_XuunZhaoLingGan">
+     <property name="geometry">
+      <rect>
+       <x>2</x>
+       <y>256</y>
+       <width>126</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>-1</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+        border:none;
+        color:white;
+        font-size:12px;
+        height:40px;
+        padding-left:5px;
+        padding-right:10px;
+       
+    }
+    QPushButton:hover{
+        color:black;
+        border:1px solid #F3F3F5;
+        border-radius:10px;
+        background:LightGray;
+    }</string>
+     </property>
+     <property name="text">
+      <string>找寻灵感</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>灵感.png</normaloff>灵感.png</iconset>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>129</x>
+      <y>0</y>
+      <width>871</width>
+      <height>595</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget{
+        color:#232C51;
+        background:gray;
+        border-top:1px solid darkGray;
+        border-bottom:1px solid darkGray;
+        border-right:1px solid darkGray;
+        border-top-right-radius:10px;
+        border-bottom-right-radius:10px;
+    }
+QWidget{
+    background:white;
+    border-top:1px solid white;
+    border-bottom:1px solid white;
+    border-left:1px solid white;
+}</string>
+    </property>
+    <widget class="QLineEdit" name="lineEdit_Seek">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>10</y>
+       <width>531</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+	border-color: rgb(25, 25, 25);
+border-radius:10px;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="placeholderText">
+      <string>搜索本地书集+我的创作</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>12</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>楷体</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+
+border:none
+
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>搜索.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Close">
+     <property name="geometry">
+      <rect>
+       <x>820</x>
+       <y>20</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>25</width>
+       <height>25</height>
+      </size>
+     </property>
+     <property name="toolTip">
+      <string>关闭</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+
+background:#F76677;
+
+border-radius:10px;
+
+
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Min">
+     <property name="geometry">
+      <rect>
+       <x>700</x>
+       <y>20</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>25</width>
+       <height>25</height>
+      </size>
+     </property>
+     <property name="toolTip">
+      <string>最小化</string>
+     </property>
+     <property name="statusTip">
+      <string/>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+
+background:#6DDF6D;
+
+border-radius:10px;
+
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Break">
+     <property name="geometry">
+      <rect>
+       <x>760</x>
+       <y>20</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>25</width>
+       <height>25</height>
+      </size>
+     </property>
+     <property name="toolTip">
+      <string>休眠</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+
+background:#F7D674;
+
+border-radius:10px;
+
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>90</y>
+       <width>124</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+
+border-color:#ffff00;
+
+border-radius:0px;
+       
+}
+   QLabel:hover{
+        border:5px solid blue;
+        border-radius:0px;
+        background:LightGray;
+    }</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>C:/Users/Administrator/Desktop/书封/1597316318(1).png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_Close</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>954</x>
+     <y>35</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>499</x>
+     <y>308</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_Min</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>showMinimized()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>852</x>
+     <y>35</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>499</x>
+     <y>308</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

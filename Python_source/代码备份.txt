@@ -1,0 +1,11 @@
+self.button = QPushButton('排序')
+        self.button.clicked.connect(self.order)
+        self.verticalLayout.addWidget(self.pushButton)
+        #self.setGeometry(QtCore.QRect())
+        self.button1 = QPushButton('跟新')
+        self.button1.clicked.connect(self.order)
+        layout.addWidget(self.button1)
+
+        self.button2 = QPushButton('插入')
+        self.button2.clicked.connect(self.order)
+        layout.addWidget(self.button2)
